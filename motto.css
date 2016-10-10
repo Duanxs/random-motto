@@ -1,0 +1,73 @@
+
+body {
+  background: #ddd;
+ 
+
+}
+.quote-box {
+  border-radius: 8px;
+  width: 500px;
+  margin: 8% auto auto auto;
+  padding: 40px 50px;
+  background-color: #fff;
+}
+.quote-box .text {
+  width: 500px;
+  font-size: 1.7em;
+  text-align: center;
+}
+#quote-left {
+  font-size: 1.5em;
+}
+.quote-box .author {
+  width: 500px;
+  font-size: 1em;
+  text-align: right;
+  margin: 30px auto auto auto;
+}
+.quote-box .btns {
+  display: block;
+  width: 500px;
+  margin: 30px auto auto auto;
+}
+.quote-box .btns .btn {
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  padding: 10px 20px ;
+  font-size: 1em;
+  color: #fff;
+  background-color: #444;
+}
+.quote-box .btns .btn:hover {
+  opacity: 0.8;
+}
+#weibo, #qq {
+  height: 20px;
+  padding: 10px;
+  margin-right: 5px;
+  font-size: 1.2em;
+  float:left;
+}
+.footer {
+  width: 500px;
+  text-align: center;
+  display: block;
+  margin: 10px auto 30px auto;
+  font-size: 0.8em;
+  color: #fff;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.fr{
+  float: right;
+}
+.fl{
+  float: left;
+}
+.clear {
+  clear: both;
+}

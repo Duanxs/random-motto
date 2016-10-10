@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script src="//cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
+	<script src="//cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+	<script src="//cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="js/motto.js"></script>
+	<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/motto.css">
+	<title>Motto</title>
+</head>
+<body>
+	<div class="quote-box">
+		<div class="text">
+		    <i class="fa fa-quote-left" id="quote-left"></i>
+		    <span id="text"></span>
+	  	</div>
+	  	<div class="author">
+	    	-- <span class="author" id="author"></span>
+	  	</div>
+	  	<div class="btns">
+		    <a href="#" class="btn" id="weibo" ><i class="fa fa-weibo"></i></a>
+		    <a href="#" class="btn" id="qq"><i class="fa fa-qq"></i></a>
+		    <button class="btn fr" id="another">再来一条</button>
+		    <div class="clear"></div>
+	  	</div>
+	</div>
+	<div class="footer">by <a href="https://duanxs.com" target="_blank">Duanxs</a></div>
+
+	<script type="text/javascript">
+   $youziku.load(".text", "57429f7ba8844981b469b31e36c3c638", "lixukexingshu");
+  /*$youziku.load("#id2", "57429f7ba8844981b469b31e36c3c638", "lixukexingshu");*/
+  /*$youziku.load(".class1", "57429f7ba8844981b469b31e36c3c638", "lixukexingshu");*/
+  /*$youziku.load(".class2", "57429f7ba8844981b469b31e36c3c638", "lixukexingshu");*/
+  /*$youziku.load("h1", "57429f7ba8844981b469b31e36c3c638", "lixukexingshu");*/
+  /*$youziku.load("h2", "57429f7ba8844981b469b31e36c3c638", "lixukexingshu");*/
+  /*．．．*/
+   $youziku.draw();
+</script>
+</body>
+</html>
