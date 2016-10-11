@@ -3,7 +3,7 @@ var author = "";
 var colors = ['#16a085', '#27ae60', '#2c3e50', '#f39c12', '#e74c3c', '#9b59b6', '#FB6964', '#342224', "#472E32", "#BDBB99", "#77B1A9", "#73A857"];
 function getQuote() {
   $.ajax({
-    url:"http://apis.baidu.com/txapi/dictum/dictum",
+    url:"https://apis.baidu.com/txapi/dictum/dictum",
     headers: {apikey: "58c8a8d547f64b755766fc587300c3ff"},
     method: "GET",
     dataType: "JSON",
